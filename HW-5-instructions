@@ -1,0 +1,41 @@
+Write a program that, on the basis of the input text displayed index. Funded
+index is a sorted list of all the different words that appear in the text.
+For each word of the text in the index referred ascending ordered list
+line numbers in which that word appears.
+The first line of input are given positive integers a and b, separated by a space, then
+followed by an input text that satisfies the following conditions:
+
+  • text contains only lowercase letters of the English alphabet, spaces, and characters
+    new line (\ n);
+  • consecutive words in the same row are always separated by exactly one space;
+  • Each row (the last one) ends with \ n;
+  • at the beginning and end of the line no spaces;
+  • no word is longer than a character;
+  • total number of words throughout the text is not greater than b;
+  • Each row contains at least one letter (up while there is no limit);
+  • text contains at least one line (up while there is no limit).
+  
+At the output of your program should print an index, in a form which is evident from the
+the following examples:
+Input:
+
+15 100
+ljudska
+marko skace
+marko skace marko skace
+po zeleni trati
+aj aj ajajaj
+po zeleni trati
+
+Output:
+
+aj 5 5
+ajajaj 5
+ljudska 1
+marko 2 3 3
+po 4 6
+skace 2 3 3
+trati 4 6
+zeleni 4 6
+
+The symbol \n finish the last line of output. At the end of each row does not print spaces!
